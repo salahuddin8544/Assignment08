@@ -12,10 +12,10 @@ const Kungfu = () => {
     console.log(player);
     return (
         <div className='kunfu-container'>
-            <div className='kunfu-player-'>
+            <div className='kunfu-player-container'>
             <KungfuPlayer></KungfuPlayer>
             </div>
-            <div>
+            <div className='profile-container'>
             <Profile></Profile>
             </div>
         </div>

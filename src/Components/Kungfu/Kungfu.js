@@ -3,6 +3,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react';
 import KungfuPlayer from '../KungfuPlayer/KungfuPlayer';
 import Profile from '../Profile/Profile';
+import Footer from '../Footer/Footer';
 import('./Kungfu.css')
 const Kungfu = () => {
     const [players,setPlayer]= useState([])
@@ -43,7 +44,7 @@ const Kungfu = () => {
             ></Profile>
             </div>
         </div>
-        <h3>Hello</h3>
+        <Footer></Footer>
         </div>
     );
 };

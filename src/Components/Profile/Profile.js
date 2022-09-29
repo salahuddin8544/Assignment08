@@ -8,7 +8,7 @@ const Profile = ({player,time}) => {
     }
     return (
         <div className='profile-info'>
-            <div className='personal'>
+            <div className='personal common2'>
                 <img src={img} alt="" />
                 <div>
                     <h3>Salah uddin</h3>
@@ -48,13 +48,14 @@ const Profile = ({player,time}) => {
                 </div>
                 <div className='exercise-time common'>
                    
-                        <h3>Brak Time</h3>
+                        <h3>Exercise Time</h3>
                 </div>
                 <div className='break-time common'>
                    
                         <h3>Brak Time </h3>
                         <p>{newt}</p>
                 </div>
+                <button className='active'>Activity Completed</button>
         </div>
     );
 };

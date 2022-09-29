@@ -11,7 +11,7 @@ const KungfuPlayer = (props) => {
             <p> {about}</p>
             <div className='info-cart'>
                 <h4>For Age: {age}</h4>
-                <h4>Time required: {time}</h4>
+                <h4>Time required: {time}s</h4>
             </div>
             </div>
             <button onClick={()=>{props.loadTime(props.player)}}>Add to List</button>

@@ -1,0 +1,27 @@
+.cover-img{
+    width:300px
+}
+.cart {
+    width: 300px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 8px 6px;
+    background-color: #799EC9;
+    position: relative;
+    color: white;
+}
+.cart img{
+    border-radius: 10px;
+}
+.cart button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    bottom: 0;
+    position: absolute;
+    background-color: #7E2F81;
+    color: white;
+}
+.infp{
+    padding:10px
+}

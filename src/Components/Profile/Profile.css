@@ -1,0 +1,26 @@
+.personal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.personal img {
+    width: 75px;
+    border-radius: 50%;
+    height: 70px;
+}
+.my-info ,.common {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #799EC9;
+    margin: 10px;
+    border-radius: 10px;
+    height: 80px;
+}
+span{
+    font-size: 10px;
+}
+.exercise-time{
+    display: flex;
+    align-content: flex-end;
+}

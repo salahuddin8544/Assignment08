@@ -4,7 +4,7 @@
       "picture": "https://64.media.tumblr.com/d67f5c3a04072513c7956ecc9809b571/3ae779b7d5a913ab-d4/s1280x1920/20df7c77f9445805623877a9500afac00fca7a7a.jpg",
       "age": 28,
       "name": "Shaolin",
-      "time": "30s",
+      "time": 23,
       "about": "Shaolin Kung Fu finds its roots deep in the past, as it originated 1500 years ago in the Shaolin monastery. It is today, one of the most sophisticated and identifiable among all Kung Fu styles, and is inextricably linked with the teachings of Chen or Zen Buddhism."
     },
     {
@@ -12,7 +12,7 @@
       "picture": "https://huawei-file-cdn.sacbu.com/uploads/picture_handle/webp/1b9045e27a393b97f479db868acfd257.jpg",
       "age": 32,
       "name": "Tai Chi",
-      "time": "30s",
+      "time": 75,
       "about": "Tai Chi is undoubtedly the most popular Kung Fu style today and counts millions of followers worldwide.Paradoxically, however, until a hundred years ago or so, Tai Chi was unknown in China"
     },
     {
@@ -20,7 +20,7 @@
       "picture": "https://www.chinaeducationaltours.com/media/image/2021-07/16251257801016.jpg",
       "age": 27,
       "name": "The Northern Praying Mantis",
-      "time": "30s",
+      "time": 75,
       "about": "Many Kung Fu styles have derived their 'identities' from the emulation of movements particular animals' movements. Among these, the Northern Praying Mantis -with roots that can be traced back to the Ming Dynasty"
     },
     {
@@ -28,7 +28,7 @@
       "picture": "https://images.squarespace-cdn.com/content/v1/57ffe4856a49638b421c43a3/1477604064948-8TCX4AG1PDQ570S0LJFA/image-asset.jpeg",
       "age": 23,
       "name": "Baguazhang",
-      "time": "30s",
+      "time": 54,
       "about": "Shoulder to shoulder with Tai Chi and Xing Yi Quan, Baguazhang is one of the main internal Kung Fu styles. Also known as the Eight Trigram Palm, the style has been brought to life by Dong Haichuan in the first half of the 19th century."
     },
     {
@@ -36,7 +36,7 @@
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTldZ0AQeJmcwMfYoVClBJbzCr5ymSqt06jlg&usqp=CAU",
       "age": 30,
       "name": "Xingyiquan",
-      "time": "30s",
+      "time": 53,
       "about": "Last but not the least in the triumvirate of the internal styles which includes Tai Chi and Baguazhang is the Xingyiquan style, the oldest among the three. At first glance, the Xingyiquan style is peculiar in that it defies the conventional characteristics of internal styles and yet is classified as such"
     },
     {
@@ -44,7 +44,7 @@
       "picture": "https://www.chinaeducationaltours.com/media/image/2021-07/16251258071890.jpg",
       "age": 23,
       "name": "Bajiquan",
-      "time": "30s",
+      "time": 53,
       "about": "Bajiquan, also known as the 'eight extremities fist', is a Kung Fu style which originated in the Hebei province. Its vigorous and robust elbow strikes, the way in which fists and arms are direct forward while thursting punches and the use of shoulders make its abrupt, short-ranged outbursts particularly recognizable."
     }
   ]

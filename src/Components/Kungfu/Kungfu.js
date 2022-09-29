@@ -6,17 +6,24 @@ import Profile from '../Profile/Profile';
 import('./Kungfu.css')
 const Kungfu = () => {
     const [players,setPlayer]= useState([])
+    const [time,setTime]= useState([]);
     useEffect(()=>{
         fetch('Kungfu.json')
         .then(res=>res.json())
         .then(data=>setPlayer(data))
     },[])
+
+    const loadTime = (players)=>{
+        const newPlayer = [...time,players]
+       setTime(newPlayer)
+    }
     return (
-        <div className='kunfu-container'>
+        <div>
+            <div className='kunfu-container'>
             <div>
-                <div className='kunfu-titla'>
-                    <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
-                    <h2>Kungfu master</h2>
+                <div className='kunfu-title'>
+                    <FontAwesomeIcon className='icon' icon={faCoffee}></FontAwesomeIcon>
+                    <h2><span className='title'>K</span>ungfu<span className='title'> M</span>aster</h2>
                 </div>
             <div className='kunfu-player-container'>
                 
@@ -24,13 +31,19 @@ const Kungfu = () => {
                     players.map(player=><KungfuPlayer 
                     key={player.id}
                     player={player}
+                    loadTime={loadTime}
                     ></KungfuPlayer>)
                 }
                 </div>
             </div>
             <div className='profile-container'>
-            <Profile></Profile>
+            <Profile 
+            time={time}
+            player ={players}
+            ></Profile>
             </div>
+        </div>
+        <h3>Hello</h3>
         </div>
     );
 };

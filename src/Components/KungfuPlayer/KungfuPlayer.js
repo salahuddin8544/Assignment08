@@ -1,8 +1,8 @@
 import React from 'react';
 import ('./KungfuPlayer.css')
 const KungfuPlayer = (props) => {
-    const{name,about,age,picture,time} = props.player
-    console.log(about);
+    const{name,about,age,picture,time,id} = props.player;
+   
     return (
         <div className='cart'>
             <img className='cover-img' src={picture} alt="" />
@@ -12,7 +12,7 @@ const KungfuPlayer = (props) => {
             <h4>For Age: {age}</h4>
             <h4>Time required: {time}</h4>
             </div>
-            <button>Add to List</button>
+            <button onClick={()=>{props.loadTime(props.player)}}>Add to List</button>
         </div>
     );
 };

@@ -7,3 +7,19 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+.profile-container{
+    background-color: #7E2F81;
+    color: white;
+}
+.kunfu-title{
+    display: flex;
+    align-content: center;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 25px;
+    color: tomato;
+}
+.icon{
+    font-size: 25px;
+}

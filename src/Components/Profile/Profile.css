@@ -25,7 +25,7 @@ span{
     align-content: flex-end;
 }
 .break{
-  
+  padding:0 10px
 }
 .all-break{
     display: flex;
@@ -37,9 +37,14 @@ span{
     padding: 5px 16px;
     border-radius: 8px;
 }
-.active{
-    width: 100%;
+.active {
+    width: 95%;
     background-color: #799EC9;
     border-radius: 10px;
     color: white;
+    text-align: center;
+    margin-left: 10px;
+    border: none;
+    padding:10px;
+    font-size: 17px;
 }

@@ -15,7 +15,7 @@ const Profile = ({player,time}) => {
                     <p>Dhaka, Bangladesh</p>
                 </div>
                 </div>
-                <div className='my-info'>
+                <div className='my-info common2'>
                     <div>
                         <p>60<span>kg</span></p>
                         <p>wight</p>
@@ -29,7 +29,7 @@ const Profile = ({player,time}) => {
                         <p>Age</p>
                     </div>
                 </div>
-                <div className='break'>
+                <div className='break common2'>
                     <h3>Add a Break</h3>
                    <div className='all-break'>
                    <div>
@@ -46,16 +46,17 @@ const Profile = ({player,time}) => {
                     </div>
                    </div>
                 </div>
-                <div className='exercise-time common'>
+                <div className='exercise-time common common2'>
                    
                         <h3>Exercise Time</h3>
+                        <p>{newt}s</p>
                 </div>
-                <div className='break-time common'>
+                <div className='break-time common common2'>
                    
                         <h3>Brak Time </h3>
-                        <p>{newt}</p>
+                        
                 </div>
-                <button className='active'>Activity Completed</button>
+                <button className='active common2'>Activity Completed</button>
         </div>
     );
 };

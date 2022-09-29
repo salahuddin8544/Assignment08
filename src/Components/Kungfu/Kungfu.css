@@ -26,3 +26,13 @@
     margin-right: 10px;
     color: #7E2F81;
 }
+@media  screen and (max-width: 600px) {
+    .kunfu-player-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .kunfu-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }

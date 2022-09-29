@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+ import 'react-toastify/dist/ReactToastify.css';
 import'./Profile.css'
 import  img from '../../profile.png'
 const Profile = ({player,time}) => {
-    const [name]=player
     let newt = 0;
     for(const itemPlayer of time){
          newt = newt + itemPlayer.time;
@@ -10,9 +11,25 @@ const Profile = ({player,time}) => {
     const [breakTime, setBreakTime]=useState(0)
     const addBreakTime=(number)=>{
         setBreakTime(number);
-        localStorage.setItem('test', number)
+        localStorage.setItem('second',number)
     }
-    
+    useEffect(()=>{
+        const getData= localStorage.getItem('second')
+        setBreakTime(getData)
+    },[])
+    const notify = () => {
+       
+        toast.success('Your activation successfully compleated', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+           
+    }
     return (
         <div className='profile-info'>
             <div className='personal common2'>
@@ -64,7 +81,10 @@ const Profile = ({player,time}) => {
                         <p>{breakTime}s</p>
                         
                 </div>
-                <button className='active common2'>Activity Completed</button>
+                <div>
+                <button onClick={notify} className='active common2'>Activity Completed</button>
+                <ToastContainer />
+                </div>
         </div>
     );
 };
